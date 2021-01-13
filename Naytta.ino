@@ -231,16 +231,14 @@ void Numero(){ // Vaihdetaan näyttöjä ja lasketaan näytön arvo. 0-99.
 void Lampotila(){// Lukee anturin lämpötilan.
   sensors.requestTemperatures(); 
   Celcius=sensors.getTempCByIndex(0);
-  //Fahrenheit=sensors.toFahrenheit(Celcius);
+  Fahrenheit=sensors.toFahrenheit(Celcius);
   laskuri = Celcius;
 
   // Tulostetaan serial porttiin tiedot.
-  /*
   Serial.print("  C: ");
   Serial.print(Celcius);
   Serial.print("  F: ");
   Serial.println(Fahrenheit);
-  */
 }
 
 void loop(){
