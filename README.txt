@@ -11,4 +11,4 @@ Kirjastot jota tervitset ovat:
   - ajastin.cpp
   
   Tiedostot kansioon: "Naytto". Arduino haluaa ne saman nimiseen kasnioon joka on ino tiedoston nimessä.
-  Kirjastot pitää laittaa samaan kansioon paitsi ne jotka ovat ardui9non ohjelmiston kautta.
+  Kirjastot pitää laittaa samaan kansioon paitsi ne jotka ovat arduinon ohjelmiston kautta ladattu/asenettu.
