@@ -1,0 +1,15 @@
+Terve
+
+Tarvitset:
+- Arduino uno
+- Arduino editorin ja siihen libraries:
+  - DallasTemperature
+  - OneWire
+- 2 X 7 segment näytön (SC56-11SRWA)
+- DS18B20 lämpötila anturin.
+- 1 X 4,7 kilo ohmin vastus
+- 8 X 180 ohmin vastusta
+- Kytkentä lauta
+- Piuhaa liitääksesi osat yhteen.
+
+Vaihtoehtona olisi luoda oma piirilevy johonka voisi juottaa osat kiinni ja josta liittää arduinoon tai kytkeä kytkentä alustalle.
